@@ -1,7 +1,7 @@
 function threeSum(arr, target) {
 // write your code here
 	arr.sort((a, b) => a - b);
-	let closetSum = -100;
+	let closetSum = Infinity;
 
 	for(let i = 0; i < arr.length-2; i++){
 		let left = i + 1;
