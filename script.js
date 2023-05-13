@@ -1,7 +1,7 @@
 function threeSum(arr, target) {
 // write your code here
 	arr.sort((a, b) => a - b);
-	let closetSum = 0;
+	let closestSum = 0;
 
 	for(let i = 0; i < arr.length-2; i++){
 		let left = i + 1;
@@ -23,7 +23,7 @@ function threeSum(arr, target) {
 	}
   
 }
-	return closetSum;
+	return closestSum;
 }
 
 module.exports = threeSum;
